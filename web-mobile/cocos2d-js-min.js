@@ -1,4 +1,4 @@
-// test
+// test2
 (function(t, e, i) {
     function n(i, s) {
         var o = e[i];
@@ -8684,7 +8684,7 @@
                 void 0 !== document.hidden ? t = "hidden" : void 0 !== document.mozHidden ? t = "mozHidden" : void 0 !== document.msHidden ? t = "msHidden" : void 0 !== document.webkitHidden && (t = "webkitHidden");
                 var i = ["visibilitychange", "mozvisibilitychange", "msvisibilitychange", "webkitvisibilitychange", "qbrowserVisibilityChange"]
                   , n = function() {
-                    o.emit(o.EVENT_HIDE, o)
+                    // o.emit(o.EVENT_HIDE, o)
                 }
                   , r = function() {
                     o.emit(o.EVENT_SHOW, o)
