@@ -1,4 +1,4 @@
-// test2
+// test3
 (function(t, e, i) {
     function n(i, s) {
         var o = e[i];
@@ -16199,7 +16199,7 @@
             },
             hide: function() {
                 this._autoHideRemainingTime = 0,
-                this._setOpacity(0)
+                // this._setOpacity(0)
             },
             show: function() {
                 this._autoHideRemainingTime = this.autoHideTime,
